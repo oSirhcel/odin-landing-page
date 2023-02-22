@@ -39,3 +39,47 @@ body {
     padding: 10px;
     font-family: 'Roboto', arial;
 }
+
+ .hero {
+     display: flex;
+     color: #F9FAF8;
+     background-color: #1F2937;
+     align-items: center;
+     justify-content: center;
+    padding: 90px;
+}
+
+.hero-cta {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+.hero button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-image img {
+    width: 500px;
+    height: 350px;
+}
